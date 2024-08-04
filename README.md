@@ -31,7 +31,7 @@ Start the development server:
 4. npm start
 The application will be available at http://localhost:3000.
 
-# Deployment
+## Deployment
 This project is deployed on Vercel. For your own deployment, follow these steps:
 
 1. Fork the repository and clone it to your local machine.
@@ -39,7 +39,7 @@ This project is deployed on Vercel. For your own deployment, follow these steps:
 3. Go to Vercel and create a new project, linking it to your GitHub repository.
 4. Follow the deployment instructions on Vercel.
 
-# Technologies Used
+## Technologies Used
 React: A JavaScript library for building user interfaces.
 Tailwind CSS: A utility-first CSS framework for rapid UI development.
 Vercel: A platform for frontend developers, providing the speed and reliability needed to innovate.
