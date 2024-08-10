@@ -4,6 +4,7 @@ import Square from './square';
 const Board = ({move,state,onPlay}) => {
 
     const handleClick = (i) => {
+        if(state[i] != null) return;
         const newArray = state.slice();
         newArray[i] = move;
         onPlay(newArray)
