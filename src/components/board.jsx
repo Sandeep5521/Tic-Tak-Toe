@@ -28,6 +28,10 @@ const Board = ({move,state,onPlay}) => {
             if(state[moves[i][0]] === state[moves[i][1]] && state[moves[i][1]] === state[moves[i][2]])
                 status = (state[moves[i][0]] == 'X')? "'X' WINS":"'O' WINS";
         }
+
+        let c=0;
+        for(let i=0;i<state.length;i++) if(state[i] != null) c++;
+        if(c == state.length) status = "DRAW";
     }
 
     let status;
